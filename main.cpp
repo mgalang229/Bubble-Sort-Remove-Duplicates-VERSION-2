@@ -30,7 +30,7 @@ int main(){
 void bubbleSort(int a[], int size){
     int temp;
     for(int i = 1; i < size; i++){
-        for(int j = 1; j <= size-1; j++){
+        for(int j = 1; j < size-1; j++){
             if(a[j] > a[j+1]){
                 temp = a[j];
                 a[j] = a[j+1];
